@@ -12,6 +12,7 @@ fn rocket() -> rocket::Rocket {
             // 2.
             routes![
                 static_files::file,
+                static_files::pico8_file,
                 get::index,
             ],
         )
