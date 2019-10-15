@@ -1,0 +1,6 @@
+CREATE TABLE games (
+  id SERIAL PRIMARY KEY NOT NULL,
+  title VARCHAR(10) NOT NULL,
+  link TEXT NOT NULL,
+  create_time TIMESTAMP NOT NULL
+)

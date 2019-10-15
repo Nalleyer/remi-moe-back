@@ -2,3 +2,5 @@
 **/*.rs.bk
 /front
 /pico8
+.env
+Rocket.toml
