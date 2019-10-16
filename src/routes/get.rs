@@ -14,7 +14,7 @@ pub fn index() -> io::Result<NamedFile> {
     NamedFile::open("front/dist/index.html")
 }
 
-#[get("/api/test_read")]
+#[get("/api/game_list")]
 pub fn read(connection: DB) -> Json<JsonValue> {
     Json(json!(Game::read(&connection)))
 }
