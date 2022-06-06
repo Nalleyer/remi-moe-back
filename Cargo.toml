@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 chrono = {version = "0.4", features = ["serde"]}
-rocket = "0.4.2"
+rocket = "0.4.7"
 dotenv = "0.14"
 diesel = {version = "1", features = ["chrono", "mysql"]}
 serde = {version = "1", features = ["derive"]}
